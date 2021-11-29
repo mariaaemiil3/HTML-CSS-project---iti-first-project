@@ -136,9 +136,10 @@ li > a:hover {
 }
 
 .firstRow img,
-.secondRow img {
-  border-radius: 6px;
-  /* filter: brightness(0.8); */
+.secondRow img,
+.latest img,
+.films img {
+  border-radius: 4px;
 }
 
 .firstRow h3 {
@@ -213,11 +214,6 @@ li > a:hover {
   margin: 8px 3px;
 }
 
-.latest img,
-.films img {
-  border-radius: 6px;
-}
-
 .latest h3 {
   font-size: 14px;
   letter-spacing: 2px;
@@ -233,7 +229,7 @@ li > a:hover {
 }
 
 #featuring {
-  margin: 80px 20px 30px;
+  margin: 80px 20px 150px;
   padding: 0px 145px;
   font-size: 18px;
   font-family: Helvetica, sans-serif;
