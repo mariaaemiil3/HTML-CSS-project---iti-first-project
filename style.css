@@ -249,7 +249,7 @@ li > a:hover {
   background-color: #f4f9f7;
   height: 600px;
   padding: 120px 145px;
-  margin: 70px 20px 30px;
+  margin: 70px 20px 0px;
 }
 
 #discoverSection h2 {
@@ -297,4 +297,61 @@ li > a:hover {
   color: #828282;
   font-size: 16.5px;
   margin-top: 10px;
+}
+
+#trustedBySection{
+  height: 700px;
+  background-color: black;
+}
+
+#trustedBy{
+  background-color: black;
+  width: 38%;
+  height: inherit;
+  float: left;
+}
+
+#trustedBy h3{
+  color: white;
+  font-size: 28px;
+  padding-left: 200px;
+  padding-top: 260px;
+}
+
+#trustedByWho{
+  width: 62%;
+  float: left;
+  height: inherit;
+  background-image: url("./resources/home-clients-6.jpg");
+  opacity: 0.7;
+  background-size: 1050px 700px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  
+}
+
+#brandsFirstRow div ,
+#brandsSecondRow div,
+#brandsThirdRow div,
+#brandsFourthRow div,
+#brandsFifthRow div{
+  display: inline-block;
+  margin: 10px 12px;
+}
+
+#brandsFirstRow  ,
+#brandsSecondRow ,
+#brandsThirdRow ,
+#brandsFourthRow ,
+#brandsFifthRow {
+  margin:30px 50px 0px 70px;
+  padding: 25px 60px 0px 30px;
+}
+
+#brandsFirstRow img,
+#brandsSecondRow img,
+#brandsThirdRow img,
+#brandsFourthRow img,
+#brandsFifthRow img{
+  opacity: 1;
 }
