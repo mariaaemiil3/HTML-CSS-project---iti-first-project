@@ -15,7 +15,7 @@
   border-bottom: 1px solid #d8d8d8;
 }
 
-#logo {
+.logo {
   float: left;
   margin: 20px 25px;
 }
@@ -60,13 +60,13 @@ li > a:hover {
   color: gray;
 }
 
-#social-media-links {
+.socialMediaLinks {
   display: inline-block;
 }
 
-#social-media-links a img {
+.socialMediaLinks a img {
   width: 18px;
-  height: 16px;
+  height: 18px;
   padding-left: 7px;
   border-radius: 15px;
   margin-top: 15px;
@@ -130,7 +130,7 @@ li > a:hover {
 }
 
 #categoriesSection {
-  margin: 70px 20px 30px;
+  margin: 70px 0px 30px;
   padding: 0px 140px;
 }
 
@@ -141,7 +141,7 @@ li > a:hover {
   color: #333;
 }
 
-#categoriesSection h2{
+#categoriesSection h2 {
   margin-bottom: 15px;
 }
 
@@ -191,7 +191,7 @@ li > a:hover {
 
 #browseSection,
 #featuring {
-  margin: 70px 20px 30px;
+  margin: 70px 0px 30px;
   padding: 0px 140px;
 }
 
@@ -199,7 +199,7 @@ li > a:hover {
   margin: 10px 10px 15px;
 }
 
-.browseBy h4{
+.browseBy h4 {
   font-size: 14px;
   padding: 10px 15px 20px;
 }
@@ -232,14 +232,14 @@ li > a:hover {
   padding: 0px 145px;
 }
 
-#featuring h2{
+#featuring h2 {
   margin-bottom: 15px;
   font-size: 26px;
   color: #333;
 }
 
 .films h3 {
-  padding:  60px 55px 34px;
+  padding: 60px 55px 34px;
   letter-spacing: 2px;
   font-size: 10px;
   font-weight: 750;
@@ -249,7 +249,7 @@ li > a:hover {
   background-color: #f4f9f7;
   height: 600px;
   padding: 120px 145px;
-  margin: 70px 20px 0px;
+  margin: 70px 0px 0px;
 }
 
 #discoverSection h2 {
@@ -299,52 +299,51 @@ li > a:hover {
   margin-top: 10px;
 }
 
-#trustedBySection{
-  height: 700px;
+#trustedBySection {
+  height: 800px;
   background-color: black;
 }
 
-#trustedBy{
+#trustedBy {
   background-color: black;
   width: 38%;
   height: inherit;
   float: left;
 }
 
-#trustedBy h3{
+#trustedBy h3 {
   color: white;
   font-size: 28px;
   padding-left: 200px;
   padding-top: 260px;
 }
 
-#trustedByWho{
+#trustedByWho {
   width: 62%;
   float: left;
   height: inherit;
   background-image: url("./resources/home-clients-6.jpg");
   opacity: 0.7;
-  background-size: 1050px 700px;
+  background-size: 1050px 800px;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  
 }
 
-#brandsFirstRow div ,
+#brandsFirstRow div,
 #brandsSecondRow div,
 #brandsThirdRow div,
 #brandsFourthRow div,
-#brandsFifthRow div{
+#brandsFifthRow div {
   display: inline-block;
   margin: 10px 12px;
 }
 
-#brandsFirstRow  ,
-#brandsSecondRow ,
-#brandsThirdRow ,
-#brandsFourthRow ,
+#brandsFirstRow,
+#brandsSecondRow,
+#brandsThirdRow,
+#brandsFourthRow,
 #brandsFifthRow {
-  margin:30px 50px 0px 70px;
+  margin: 30px 50px 0px 70px;
   padding: 25px 60px 0px 30px;
 }
 
@@ -352,6 +351,71 @@ li > a:hover {
 #brandsSecondRow img,
 #brandsThirdRow img,
 #brandsFourthRow img,
-#brandsFifthRow img{
+#brandsFifthRow img {
   opacity: 1;
+}
+
+#lastBeforeFooter{
+  background-color: black;
+  height: 250px;
+  padding: 140px 600px 0px 600px;
+  
+}
+
+#lastBeforeFooter h1{
+  font-size: 34px;
+  text-align: center;
+  line-height: 40px
+}
+
+#whiteHeading{
+color: white;
+}
+
+#greenHeading{
+  color: #00ffaf;
+}
+
+#footer{
+  background-color: #000;
+  height: 300px;
+}
+
+#footer .logo{
+  margin-left: 150px;
+  margin-right: 60px;
+}
+
+.linksCol{
+  display: inline-block;
+  padding: 0px 60px 0px 120px;
+  line-height: 30px;
+}
+.linksCol h4{
+  color: white;
+}
+
+.linksCol a{
+  display: table;
+  color: rgba(255,255,255,.5);
+  text-decoration: none;
+}
+
+.linksCol > a:hover{
+  color: gainsboro;
+}
+
+#footer .socialMediaLinks{
+  float: right;
+}
+
+#copyrights{
+  background-color: black;
+  
+}
+
+#copyrights p{
+  text-align: center;
+  color: rgba(255,255,255,.5);
+  font-size: 14px;
 }
