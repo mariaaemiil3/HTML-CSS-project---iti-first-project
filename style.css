@@ -175,6 +175,7 @@ li {
 .films img {
   border-radius: 4px;
   opacity: 1.0;
+  /* z-index: 1; */
 }
 
 .firstRow h3 {
@@ -253,7 +254,6 @@ li {
 
 #browseByLatest {
   margin: 30px 0px;
-  z-index: 1;
 }
 
 .latest {
