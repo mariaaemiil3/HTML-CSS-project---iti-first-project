@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./loginStyles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="main">
+        <form action="#" method="post">
+            <img id="logo" src="./resources/logo-symbol.svg" alt="">
+            <h1>Login to Soundsnap</h1>
+            <input id="uName_Email" type="text" placeholder="  Username or e-mail address" required>
+            <input id="password" type="password" placeholder="  Password" required>
+
+            <div id="reCaptchaDiv">
+                <input type="checkbox" name="captcha" id="captcha">
+                <label for="captcha"> I'm not a robot</label>
+                <img src="./resources/reCaptcha.png" alt="" id="reCaptcha" >
+            </div>
+
+            <input type="submit" value="Log in" id="btn">
+            <a href="./register.html">Create a new account</a>
+        </form>
+    </div>
+</body>
+</html>
